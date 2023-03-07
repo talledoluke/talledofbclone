@@ -1,0 +1,623 @@
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .center {
+        margin-top: 50%;
+    }
+
+    .main .center .top_box .buttons{
+        display: none;
+    }
+    header{
+     
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            border-bottom: none;
+        
+            justify-content: space-between;
+            
+            background: #fff;
+            gap: 150px;
+            z-index: 1000;
+        
+    }
+
+    .right-nav  {
+        display: flex;
+        margin-left: 35%;
+    }
+    .right-nav i:nth-child(4){
+        display: none;
+        
+    }
+    .right-nav img{
+        display: none;
+        
+    }
+
+    .right-nav i:nth-child(1){
+        display: flex;
+        
+    }
+    .right-nav i:nth-child(2){
+        display: flex;
+        
+    }
+
+    div.search-bar{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    nav{
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        z-index: 1000;
+    }
+
+    
+    nav .icons{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        justify-content: space-between;
+        
+        height: 65px;
+        padding: 10px 10px 0 20px;
+        align-items: center;
+        
+   
+ 
+    }
+
+    nav .icons ul{
+        display: flex;
+        
+        
+    }
+
+    nav .icons ul img{
+        height: 35px;
+        width: 35px;
+    }
+
+    nav .icons ul i{
+        height: 35px;
+        width: 35px;
+        align-items: center;
+        font-size: 35px;
+    }
+
+    nav .icons ul #profile{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+    nav .icons ul #home{
+        color: #0165E1;
+ 
+
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .center {
+        margin-top: 15%;
+    }
+
+    .main .center .top_box{
+        height: 310px;
+    }
+
+    .main .center .top_box .buttons{
+        display: none;
+    }
+    header{
+     
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            border-bottom: none;
+        
+            justify-content: space-between;
+            
+            background: #fff;
+            gap: 150px;
+            z-index: 1000;
+        
+    }
+
+    .right-nav  {
+        display: flex;
+        margin-left: 35%;
+    }
+    .right-nav i:nth-child(4){
+        display: none;
+        
+    }
+    .right-nav img{
+        display: none;
+        
+    }
+
+    .right-nav i:nth-child(1){
+        display: flex;
+        
+    }
+    .right-nav i:nth-child(2){
+        display: flex;
+        
+    }
+
+    div.search-bar{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    nav{
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        z-index: 1000;
+    }
+
+    
+    nav .icons{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        justify-content: space-between;
+        
+        height: 65px;
+        padding: 10px 10px 0 20px;
+        align-items: center;
+        
+   
+ 
+    }
+
+    nav .icons ul{
+        display: flex;
+        
+        
+    }
+
+    nav .icons ul img{
+        height: 35px;
+        width: 35px;
+    }
+
+    nav .icons ul i{
+        height: 35px;
+        width: 35px;
+        align-items: center;
+        font-size: 35px;
+    }
+
+    nav .icons ul #profile{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+    nav .icons ul #home{
+        color: #0165E1;
+ 
+
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .center {
+        margin-top: 15%;
+    }
+
+    .main .center .top_box{
+        height: 310px;
+    }
+
+    .main .center .top_box .buttons{
+        display: none;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+    
+        justify-content: space-between;
+        
+        background: #fff;
+        gap: 150px;
+        z-index: 1000;
+    }
+
+    .right-nav  {
+        display: flex;
+        margin-left: 40%;
+    }
+    .right-nav i:nth-child(4){
+        display: none;
+        
+    }
+    .right-nav img{
+        display: none;
+        
+    }
+
+    .right-nav i:nth-child(1){
+        display: flex;
+        
+    }
+    .right-nav i:nth-child(2){
+        display: flex;
+        
+    }
+
+    div.search-bar{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    nav{
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        z-index: 1000;
+    }
+
+    
+    nav .icons{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        justify-content: space-between;
+        
+        height: 65px;
+        padding: 10px 10px 0 20px;
+        align-items: center;
+        
+   
+ 
+    }
+
+    nav .icons ul{
+        display: flex;
+        
+        
+    }
+
+    nav .icons ul img{
+        height: 35px;
+        width: 35px;
+    }
+
+    nav .icons ul i{
+        height: 35px;
+        width: 35px;
+        align-items: center;
+        font-size: 35px;
+    }
+
+    nav .icons ul #profile{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+    nav .icons ul #home{
+        color: #0165E1;
+ 
+
+    }
+
+   
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .center {
+        margin-top: 5%;
+    }
+
+    .main .center .top_box .buttons{
+        display: none;
+    }
+    header{
+     
+            position: fixed;
+            width: 100%;
+            height: 61px;
+            display: flex;
+            align-items: center;
+            border-bottom: none;
+        
+            justify-content: space-between;
+            
+            background: #fff;
+            gap: 150px;
+            z-index: 1000;
+        
+    }
+
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .main .center {
+        margin-top: 15%;
+    }
+
+    .main .center .top_box{
+        height: 320px;
+    }
+
+    .main .center .top_box .buttons{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .right-nav i:nth-child(4){
+        display: none;
+        
+    }
+    .right-nav img{
+        display: none;
+        
+    }
+
+   
+    .right-nav i:nth-child(2){
+        display: flex;
+        
+    }
+
+    div.search-bar{
+        display: none;
+    }
+
+    .right-nav  {
+        display: flex;
+        margin-left: 50%;
+    }
+
+    nav{
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        z-index: 1000;
+    }
+
+    
+    nav .icons{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        background: #fff;
+        border-bottom: 1px solid #cccccc;
+        justify-content: space-between;
+        
+        height: 65px;
+        padding: 10px 10px 0 20px;
+        align-items: center;
+        
+   
+ 
+    }
+
+    nav .icons ul{
+        display: flex;
+        
+        
+    }
+
+    nav .icons ul img{
+        height: 35px;
+        width: 35px;
+    }
+
+    nav .icons ul i{
+        height: 35px;
+        width: 35px;
+        align-items: center;
+        font-size: 35px;
+    }
+
+    nav .icons ul #profile{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    }
+
+    nav .icons ul #home{
+        color: #0165E1;
+ 
+
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .main .center .top_box .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.2s;
+        font-size: var(--regular-font-size);
+        
+    }
+
+    .main .center{
+        margin-top: 0;
+    }
+
+    nav{
+        display: none;
+    }
+    
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.search-bar{
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .right-nav {
+        display: flex;
+        margin-left: 20%;
+        
+    }
+.right-nav i:nth-child(1){
+    display: none;
+    
+}
+.right-nav i:nth-child(2){
+    display: none;
+    
+}
+.right-nav i:nth-child(4){
+    display: flex;
+    
+}
+.right-nav img{
+    display: flex;
+    
+}
+div.search-bar{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 92vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #f5f5f5;
+    padding: 20px 6px 5px 10px;
+    flex-grow: 1;
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #f5f5f5;
+    padding: 20px 6px 5px 10px;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .right-nav i:nth-child(1){
+        display: none;
+        
+    }
+    .right-nav i:nth-child(2){
+        display: none;
+        
+    }
+
+    .right-nav i:nth-child(4){
+        display:flex;
+        
+    }
+
+    div.search-bar{
+        display: flex;
+        width: 100%;
+    }
+    
+}
